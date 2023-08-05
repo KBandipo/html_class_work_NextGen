@@ -1,0 +1,42 @@
+body {
+  font-family: Sans-serif;
+  color: #444444;
+  border-top: 10px solid #1098ad;
+}
+
+h1 {
+  color: rgb(141, 141, 167);
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28;
+}
+
+li {
+  font-size: 22;
+}
+
+.main-head {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+.main-body {
+  background-color: #babdb2;
+}
+
+.about {
+  padding: 10px 10px;
+}
+
+.hubby {
+}
+
+.about-my-hubby {
+  padding-bottom: 20px;
+}
