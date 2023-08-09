@@ -6,7 +6,8 @@
 body {
   font-family: Sans-serif;
   color: #444444;
-  border-top: 10px solid #1098ad;
+  border-top: 10px solid rgb(37, 11, 11);
+  line-height: 1.4;
 }
 
 h1 {
