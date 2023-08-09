@@ -65,6 +65,11 @@ li {
   margin-left: 20px;
   list-style:square;
 }
+.head-pix{
+  width:8%;
+  height: auto;
+
+}
 
 a:link, a:visited{
   cursor: pointer;
