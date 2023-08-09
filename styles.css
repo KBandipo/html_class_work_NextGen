@@ -52,4 +52,13 @@ li {
 
 .about-my-hubby {
   padding-bottom: 20px;
+margin-left: 20px;
+  list-style:square;
 }
+
+a:link, a:visited{
+  cursor: pointer;
+}
+a:hover, a:active{
+text-decoration: dotted;
+font-weight: bold;
