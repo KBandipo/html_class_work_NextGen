@@ -1,33 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: Sans-serif;
+  font-family: "Rubik", Sans-serif;
   color: #444444;
-  border-top: 10px solid #250b0b;
   line-height: 1.4;
 }
 
 .container {
-width:1000px;
-margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 10px solid #250b0b;
+  border-bottom: 10px solid #250b0b;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 50px;
+  row-gap: 20px;
 }
 
 .main-head {
-  background-color: #f7f7f7;
+  background-color: #f5fffa;
   padding: 20px 40px;
-  margin-bottom: 50px;
+  grid-column: 1/-1;
 }
-.main-body {
-  background-color: #f7f7f7a6;
-  margin-bottom: 60px;
+article {
+  grid-column: 1/2;
+  padding-left: 20px;
 }
 
+.main-body {
+  background-color: #f5fffa;
+}
+h1,
+h2,
+h3 {
+  color: #250b0b;
+}
 
 h1 {
-  color: rgb(141, 141, 167);
   text-align: center;
 }
 
@@ -44,6 +57,7 @@ h3 {
 p {
   font-size: 18px;
   margin: 15px 0;
+  line-height: 1.5;
 }
 
 li {
@@ -51,33 +65,65 @@ li {
   margin-left: 30px;
 }
 
-.head-picture {
-  margin-bottom: 30px;
+#head-pix {
+  margin-left: -20px;
 }
 
 .about {
   padding: 10px 0;
 }
 
-.hubby {padding-bottom: 3px;
+.hubby {
+  padding-bottom: 3px;
 }
-.hubby:last-child{
+.hubby:last-child {
   padding-bottom: 0;
 }
 
 .about-my-hubby {
   margin-left: 20px;
-  list-style:square;
+  list-style: square;
 }
-.head-pix{
-  width:8%;
+.head-pix {
+  width: 8%;
   height: auto;
-
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
   cursor: pointer;
 }
-a:hover, a:active{
-text-decoration: dotted;
-font-weight: bold;
+a:hover,
+a:active {
+  text-decoration: dotted;
+  font-weight: bold;
+}
+
+/* aside */
+aside {
+  padding: 15px;
+  border-top: 10px solid #250b0b;
+  border-bottom: 10px solid #250b0b;
+  line-height: 1.4;
+  background-color: mintcream;
+  align-self: start;
+}
+.about-media {
+  font-size: 36px;
+  color: #250b0b;
+}
+about-header {
+  background-color: #f7f7f7;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.about-link:link,
+.about-link:visited {
+  cursor: pointer;
+}
+.about-link:hover,
+.about-link:active {
+  text-decoration: dotted;
+  font-weight: bold;
+}
